@@ -3,7 +3,7 @@ body{
 }
 
 
-.main{
+main{
 	width: 908px;
 	margin: 0 auto;
 }
@@ -43,14 +43,14 @@ header{
 .number>p{
 	padding-left: 28px;
 	margin-top: 4px;
-	font-family: Arial, Tahoma, serif;
+	font-family: Arial, sans-serif;
 	font-size: 18px;
 	color:#5e696d;
 }
 
 
 
-form{
+.heder_form{
 	width: 280px;
 	float: left;
 	margin-top: 2px;
@@ -61,7 +61,7 @@ input[type="text"],
 input[type="password"]{
 	width: 108px;
     padding-left: 4px;
-    font-family: Lucida, Arial, serif;
+    font-family: Lucida, sans-serif;
     font-size: 11px;
     color: #97a2a6;
 }
@@ -76,7 +76,7 @@ input[type="submit"]{
 	border-top: none;
 	border-bottom: none;
 	border-right: 1px solid #ffffff;
-	font-family: Lucida, Arial, serif;
+	font-family: Lucida, sans-serif;
 	font-size: 11px;
 	color: #ffffff;
 	background-color: #103e62;
@@ -92,14 +92,17 @@ input[type="submit"]{
 	width: 495px;
 	height: 25px;
 	margin-left: 15px;
-	margin-right: 18px;
+	margin-right: 17px;
 	float: left;
 	border-radius: 5px;
-	background-image: url(../img/login-img.png);
-	background-repeat: no-repeat;
-	background-position: 6px 6px;
 	background: linear-gradient(to top, #0e375b 70%, #1f6685);
 	box-shadow: 1px 2px 2px 1px #b9b9b9;
+}
+
+.logo p{
+	position: absolute;
+    top: 23px;
+    left: 541px;
 }
 
 .logo a,
@@ -109,7 +112,7 @@ input[type="submit"]{
 	text-decoration: none;
 	display: inline-block;
 	line-height: 25px;
-	font-family: Lucida, Arial, serif;
+	font-family: Lucida, sans-serif;
 	font-size: 12px;
 	color: #bfbfbf;
 }
@@ -128,7 +131,7 @@ input[type="submit"]{
 }
 
 .navi{
-	width: 77px;
+	width: 73px;
 	height: 20px;
 	margin-top: 3px;
 	float: left;
@@ -197,7 +200,7 @@ nav ul li{
 nav ul li>a {
 	text-decoration: none;
 	text-transform: uppercase;
-	font-family: Lucida, Arial, serif;
+	font-family: Lucida, sans-serif;
 	font-size: 13px;
 	display: block;
     line-height: 27px;
@@ -229,7 +232,7 @@ nav ul li:first-child{
 
 nav ul li:nth-child(6),
 nav ul li:last-child{
-	font-family: Arial, Tahoma, serif;
+	font-family: Arial, sans-serif;
 	font-size: 11px;
 	color: #929b9f;
 	line-height: 33px;
@@ -258,5 +261,811 @@ nav ul li:last-child p>span{
 	color: #0d5a8f;
 }
 
-/* section */
+/* section 1*/
 
+section:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.section1{
+	width: 412px;
+    height: 135px;
+    margin-top: 11px;
+    margin-left: 5px;
+    float: left;
+    border: 1px solid #b8b8b9;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 1px #b9b9b9;
+    
+}
+
+.section1_hed:after{
+	content:"";
+	display: block;
+	clear: both;
+}
+
+.side{
+	width: 42px;
+	font-size: 10px;
+	color: #154468;
+	margin-left: 20px;
+	margin-top: 3px;
+	font-weight: 900;
+}
+
+.r-side{
+	margin-left: 67px;
+	margin-top: 1px;
+	font-weight: 900;
+}
+
+.center{
+	width: 160px;
+	font-size: 12px;
+	color: #154467;
+	font-weight: 900;
+	margin-left: 63px;
+	letter-spacing: 0.3px;
+}
+
+.section1 h3{
+	float: left;
+}
+
+.section1_left{
+	float: left;
+	width: 205px;
+	margin-top: 2px;
+
+}
+
+.section1_l:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+.section1_l dt,
+.section1_right dt,
+.section2 fieldset ul li:first-child{
+	font-size: 10px;
+	float: left;
+	width: 71px;
+}
+
+
+.section1_l dd select,
+.section1_right dd select{
+	width: 100px;
+	-webkit-appearance: none;
+	background-image: url(../img/strilka_1.png);
+	background-position: right bottom;
+    background-repeat: no-repeat;
+    border: 2px solid #949494;
+    border-bottom: none;
+    border-right: none;
+}
+
+.section1 input[type="submit"]{
+	width: 50px;
+    background-color: #fff;
+    border-bottom: 2px solid #99a6b3;
+    color: #154467;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    position: relative;
+    left: 137px;
+    top: 2px;
+}
+
+
+/* pix-pos*/
+
+.section1_l,
+.section1_right dl{
+	height: 20px;
+	margin-top: 2px;
+}
+
+.section1 
+.section1_left 
+.section1_l 
+.section1_l_m,
+.section1 
+.section1_right 
+.section1_r_m{
+	margin-left: 16px;
+	margin-right: 5px;
+}
+
+.section1 
+.section1_left 
+.section1_l 
+.section1_l_m1,
+.section1 
+.section1_left 
+.section1_l
+.section1_l_m2,
+.section1 
+.section1_right 
+.section1_r_m1,
+.section1 
+.section1_right 
+.section1_r_m2{
+	margin-left: 17px;
+	margin-right: 5px;
+	line-height: 8px;
+}
+
+.section1 
+.section1_left 
+.section1_l
+.section1_l_m3,
+.section1 
+.section1_right 
+.section1_r_m3{
+	margin-left: 16px;
+    margin-top: 3px;
+    margin-right: 6px;
+}
+
+
+.section1 
+.section1_left 
+.section1_l
+.section1_l_s,
+.section1 
+.section1_right 
+.section1_r_s{
+	width: 57px;
+}
+
+
+/* section 2*/
+
+.section2{
+	float: left;
+	width: 192px;
+	height: 135px;
+	margin-top: 11px;
+    margin-left: 15px;
+    margin-right: 8px;
+	border: 1px solid #b8b8b9;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 1px #b9b9b9;
+}
+
+.section2>h3,
+.section3
+.section3_l h3{
+	margin-left: 8px;
+	font-size: 12px;
+	font-family: Arial, serif;
+	font-weight: 800;
+	color: #154468;
+}
+
+.section3
+.section3_l h3{
+	letter-spacing: 1px;
+}
+
+.section1_l .section2_sel,
+.section3 .section3_l .section3_l_select{
+	width: 50px;
+	float: left;
+}
+
+.section2 .section1_l dt,
+.section2 fieldset ul li:first-child{
+	width: 41px;
+}
+
+
+.section2 .section2_sel_r{
+	width: 44px;
+}
+
+
+.section2 .section1_l dt dd,
+.section2 .section1_l  dd,
+.section2 fieldset ul li:first-child{
+	float: left;
+}
+
+.section2 fieldset ul:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.section2 fieldset ul li:nth-child(2),
+.section2 fieldset ul li:nth-child(3),
+.section2 fieldset ul li:last-child{
+	margin-left: 44px;
+	height: 14px;
+}
+
+.section2 fieldset ul {
+	margin-top: 7px;
+	margin-left: 13px;
+	font-family: Lucida, sans-serif;
+	font-size: 12px;
+}
+
+
+.section2 fieldset ul li label input[type="checkbox"]{
+	height: 12px;
+    position: relative;
+    top: 2px;
+}
+
+.section2 input[type="submit"]{
+	width: 50px;
+    background-color: #fff;
+    border-bottom: 2px solid #99a6b3;
+    color: #154467;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    position: relative;
+    left: 122px;
+    top: -3px;
+}
+
+/* pix-pos */
+
+.section2
+.section2_m{
+	margin-top: 10px;
+    margin-left: 11px;
+    margin-right: 6px;
+}
+
+.section2
+.section2_s,
+.section2
+.section2_s1{
+	margin-top: 3px;
+	margin-right: 6px;
+}
+
+.section2
+.section2_s2{
+	margin-top: 2px;
+}
+
+.section2
+.section2_s3{
+	text-align: right;
+    margin-top: 9px;
+    margin-left: 10px;
+}
+
+.section2
+.section2_s4{
+	margin-left: 7px;
+    margin-top: 4px;
+}
+
+.section2,
+ul .section2{
+	letter-spacing: 0.2px;
+}
+
+
+/* section3 */
+
+.section3{
+	float: left;
+    width: 267px;
+    height: 135px;
+    margin-top: 11px;
+    border: 1px solid #b8b8b9;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 1px #b9b9b9;    
+}
+
+.section3_l_dl{
+	height: 31px;
+}
+
+.section3_l_dl_2{
+	height: 45px;
+}
+
+.section3 .section3_l select,
+.section3 .section3_r select{
+	width: 57px;
+}
+
+.section3_l{
+	width: 175px;
+	height: 110px;
+	border-right: 1px solid #b8b8b9;
+	float: left;
+}
+
+.section3 
+.section3_l 
+.section1_l dt{
+	width: 90px;
+	margin-left: 16px;
+}
+
+.section3 .section3_r dt{
+	width: 69px;
+	font-size: 10px;
+}
+
+.section_pos{
+	position: relative;
+	top: 5px;
+}
+
+.section3 input[type="submit"]{
+	width: 50px;
+    background-color: #fff;
+    border-bottom: 2px solid #99a6b3;
+    color: #154467;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    position: relative;
+    left: 22px;
+    top: 2px;
+}
+
+/* pix pos */
+
+.section3
+.section3_l p{
+    letter-spacing: 0.9px;
+}
+
+.section3
+.section3_l
+.section3_l_m{
+    letter-spacing: 0.8px;
+    margin-top: 4px;
+}
+
+.section3
+.section3_l
+.section3_l_m1{
+    letter-spacing: 0.2px;
+    line-height: 9.7px;
+}
+
+.section3 
+.section3_l 
+.section3_l_select,
+.section3 
+.section3_l 
+.section3_l_select1{
+	margin-top: 10px;
+}
+
+.section3
+.section3_l
+.section3_l_m2{
+	line-height: 10px;
+    letter-spacing: 0.7px;
+    position: relative;
+    top: -4px;
+}
+
+.section3
+.section3_r
+.section3_r_m{
+	margin-left: 10px;
+    margin-top: 4px;
+    line-height: 9px;
+}
+
+.section3
+.section3_r
+.section3_r_select{
+	margin-left: 12px;
+	margin-top: 2px;
+	-webkit-appearance: none;
+	background-image: url(../img/strilka_1.png);
+	background-position: right bottom;
+    background-repeat: no-repeat;
+    border: 2px solid #949494;
+    border-bottom: none;
+    border-right: none;
+
+}
+
+.section3
+.section3_r
+.section3_r_m1{
+	margin-top: 4px;
+    margin-left: 10px;
+    line-height: 10px;
+}
+
+/* left-bar*/
+
+.left_bar{
+	width: 192px;
+	margin-top: 17px;
+}
+
+.catalog {
+	width: 153px;
+    height: 20px;
+    border: 1px solid #949fa4;
+   	border-radius: 60px;
+    margin-bottom: 13px;
+    padding-left: 27px;
+    padding-top: 5px;
+    background: url(../img/copy_brand.png) 6px 4px no-repeat,
+    			url(../img/fon-for-phon.png) 1px 1px no-repeat;
+}
+
+.catalog h3{
+	font-family: Lucida, sans-serif;
+    font-size: 12px;
+    color: #114165;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+}
+
+.products{
+	width: 119px;
+    height: 19px;
+    border: 1px solid #949fa4;
+    border-radius: 60px;
+    padding-top: 7px;
+    padding-left: 30px;
+    background: url(../img/circle-brand.png) 9px 7px no-repeat,
+    			url(../img/fon-for-phon.png) 4px 2px no-repeat;
+}
+
+.products h3{
+	text-transform: uppercase;
+    font-size: 12px;
+    color: #114165;
+    font-family: Lucida, sans-serif;
+    letter-spacing: 1.1px;
+}
+
+.left_bar ul>li{
+	list-style: circle;
+    margin-left: 52px;
+}
+
+.left_bar ul>li>a{
+	text-decoration: none;
+	margin-left: -4px;
+	letter-spacing: 0.6px;
+    line-height: 25px;
+    font-size: 12px;
+    font-family: Lucida, sans-serif;
+    color: #465961;
+}
+
+.left_bar ul>li:hover{
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	letter-spacing: 0px;
+	font-style: italic;
+	font-weight: 600;
+	text-decoration: underline;
+
+}
+
+.left_bar{
+	float: left;
+}
+
+/* right-side*/
+
+
+.right_bar{
+	float: right;
+	margin-top: 16px;
+}
+
+
+.brand{
+	border: 1px solid #949fa4;
+    width: 91px;
+    height: 20px;
+    border-radius: 11px;
+    padding-top: 4px;
+    padding-right: 89px;
+    margin-bottom: 15px;
+    background: url(../img/copy_brand.png) 8px 4px no-repeat,
+    			url(../img/fon-for-phon.png) 3px 1px no-repeat;
+}
+
+.brand h3{
+	text-align: right;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: Lucida, sans-serif;
+    color: #114165;
+}
+
+.tires_right{
+	border: 1px solid #949fa4;
+    width: 134px;
+    height: 24px;
+    border-radius: 11px;
+    margin-left: 14px;
+    background: url(../img/circle-brand.png) 9px 7px no-repeat,
+    			url(../img/fon-for-phon.png) 5px 2px no-repeat;
+}
+
+.tires_right h3{
+	margin-left: 31px;
+    margin-top: 5px;
+    font-family: Lucida, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #114165;
+}
+
+.right_bar form ul li input[type="checkbox"]{
+	float: left;
+	margin-right: 12px;
+	height: 10px;
+    position: relative;
+    top: 6px;
+}
+
+.right_bar form ul li label{
+	font-family: Lucida, sans-serif;
+	font-size: 12px;
+	color: #465961;
+	letter-spacing: 2.1px;
+}
+
+.right_bar form ul li{
+	margin-top: 7px;
+	margin-left: 24px;
+}
+
+.right_bar form ul li:last-child{
+	margin-bottom: 13px;
+}
+
+.right_bar .right_ul_m{
+	margin-bottom: 20px;
+}
+.right_bar input[type="submit"]{
+    height: 25px;
+    width: 80px;
+    margin-left: 25px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+}
+
+
+.right_bar ul li:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+/* section center */
+
+.center_content{
+	width: 525px;
+	height: 625px;
+	background: linear-gradient(to bottom, #e3e6e7 20%, #94a8b1);
+	margin-left: 192px;
+    margin-top: 15px;
+}
+
+.center_content:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+
+.center_content article figure p{
+	width: 137px;
+	height: 120px;
+	padding-top: 5px;
+    background-color: #fff;
+    border: 1px solid #bfc6c8;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.center_content article figure{
+	display: block;
+	width: 148px;
+	float: left;
+	margin: 10px 0 9px 20px;
+}
+
+.center_content article figure figcaption h3{
+	font-family: Lucida, sans-serif;
+	font-size: 14px;
+	color: #206988;
+	margin-left: 35px;
+    margin-top: 3px;
+    letter-spacing: 0.2px;
+    font-weight: 700;
+}
+
+.center_content article figure figcaption h4{
+	margin-left: 14px;
+    margin-bottom: 3px;
+	font-family: Lucida, sans-serif;
+	font-size: 13px;
+	letter-spacing: 0.5px;
+	line-height: 11px;
+}
+
+.center_content article figure figcaption .nokian{
+	margin-left: 47px;
+    letter-spacing: 0.4px;
+}
+
+.center_content article figure figcaption .nokian1{
+	margin-left: 26px;
+	letter-spacing: 0.4px;
+}
+
+.center_content article figure .nokian_price{
+	margin-left: 35px;
+    letter-spacing: 0.7px;
+}
+
+.center_content article figure figcaption .hankook{
+	margin-left: 41px;
+}
+
+.center_content article figure figcaption .hankook1{
+	margin-left: 12px;
+    letter-spacing: 0.9px;
+}
+
+.center_content article figure .hankook_price{
+	margin-left: 34px;
+    letter-spacing: 0.9px;
+}
+
+.center_content article figure figcaption .nokian_last,
+.center_content article figure figcaption .goodyear_last,
+.center_content article figure figcaption .hankook_last{
+	margin-top: 6px;
+}
+
+.center_content article figure h5{
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	font-style: italic;
+	color: #114165;
+	margin-top: 4px;
+    margin-left: 39px;
+    letter-spacing: 0.4px;
+}
+
+.center_content article figure h5 span{
+	font-size: 12px;
+}
+
+/* advetising */
+.advertising{
+	width: 700px;
+    margin-left: 118px;
+    margin-top: 43px;
+}
+
+
+.advertising p{
+	float: left;
+	margin-right: 12px;
+}
+
+.advertising:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.advertising .advertising_marg{
+	margin-right: 15px;
+}
+
+.advertising .advertising_marg1{
+	margin-top: -5px;
+}
+
+.advertising .advertising_marg2{
+	margin-right: 17px;
+}
+
+/* footer */
+
+footer{
+	width: 910px;
+	height: 98px;
+	margin-top: 23px;
+	background-color: #213a4d;
+}
+
+footer ul>li{
+	float: left;
+	margin-top: 12px;
+	margin-left: 13px;
+	border-right: 1px solid #bec6c9;
+}
+
+footer ul:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+footer ul li>a{
+	display: block;
+	text-decoration: none;
+	margin-right: 11px;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	line-height: 11px;
+	color: #bec6c9;
+}
+
+footer ul li:first-child{
+	margin-left: 309px;
+}
+
+footer ul li:first-child a{
+	letter-spacing: 0.4px;
+}
+
+footer ul li:nth-child(2) a,
+footer ul li:nth-child(3) a{
+	margin-right: 13px;
+	letter-spacing: 0.1px;
+}
+
+footer ul li:nth-child(4){
+	letter-spacing: 0.2px;
+    margin-left: 16px;
+    border-right: none;
+}
+
+footer ul li a:hover{
+	color: #52abcb;
+}
+
+footer p{
+	margin-top: 15px;
+    margin-left: 378px;
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+	color: #7f4740;
+}
+/*
+<p>
+	<a href="http://jigsaw.w3.org/css-validator/check/referer">
+		<img style="border:0;width:88px;height:31px"
+			src="//jigsaw.w3.org/css-validator/images/vcss"
+			alt="Правильный CSS!" />
+	</a>
+</p>
+<p>
+	<a href="http://jigsaw.w3.org/css-validator/check/referer">
+		<img style="border:0;width:88px;height:31px"
+			src="//jigsaw.w3.org/css-validator/images/vcss-blue"
+			alt="Правильный CSS!" />
+	</a>
+</p>
+*/

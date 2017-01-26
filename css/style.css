@@ -15,7 +15,7 @@ header{
 }
 
 .contacts{
-	margin-bottom: 10px;
+	margin-bottom: 11px;
 }
 
 .number{
@@ -33,7 +33,7 @@ header{
 	background-repeat: no-repeat;
 	background-position: 2px -1px;
 	float: left;
-	margin-top: 4px;
+	margin-top: 5px;
 	margin-left: 7px;
 	margin-right: 6px;
 }
@@ -41,8 +41,7 @@ header{
 
 
 .number>p{
-	padding-left: 28px;
-	margin-top: 4px;
+	margin-top: 6px;
 	font-family: Arial, sans-serif;
 	font-size: 18px;
 	color:#5e696d;
@@ -53,15 +52,16 @@ header{
 .heder_form{
 	width: 280px;
 	float: left;
-	margin-top: 2px;
+	margin-top: 3px;
 	margin-left: 22px;
 }
 
 input[type="text"],
 input[type="password"]{
 	width: 108px;
-    padding-left: 4px;
-    font-family: Lucida, sans-serif;
+	height: 13px;
+    padding-left: 3px;
+    font-family: Lucida Sans Unicode, sans-serif;
     font-size: 11px;
     color: #97a2a6;
 }
@@ -72,12 +72,14 @@ input[type="text"]{
 
 input[type="submit"]{
 	width: 34px;
+	margin-left: 1px;
 	border-left: none;
 	border-top: none;
 	border-bottom: none;
 	border-right: 1px solid #ffffff;
-	font-family: Lucida, sans-serif;
+	font-family: Lucida Sans Unicode, sans-serif;
 	font-size: 11px;
+	line-height: 9px;
 	color: #ffffff;
 	background-color: #103e62;
 }
@@ -90,12 +92,12 @@ input[type="submit"]{
 
 .logo{
 	width: 495px;
-	height: 25px;
+	height: 26px;
 	margin-left: 15px;
 	margin-right: 17px;
 	float: left;
-	border-radius: 5px;
-	background: linear-gradient(to top, #0e375b 70%, #1f6685);
+	border-radius: 3px;
+	background: linear-gradient(to top, #0e375b 50%, #1f6685);
 	box-shadow: 1px 2px 2px 1px #b9b9b9;
 }
 
@@ -112,7 +114,7 @@ input[type="submit"]{
 	text-decoration: none;
 	display: inline-block;
 	line-height: 25px;
-	font-family: Lucida, sans-serif;
+	font-family: Lucida Sans Unicode, sans-serif;
 	font-size: 12px;
 	color: #bfbfbf;
 }
@@ -123,7 +125,8 @@ input[type="submit"]{
 	font-size: 11px;
 	color: #ffffff;
 	margin-right: 17px;
-	margin-left: 3px;
+	margin-top: 1px;
+	letter-spacing: -0.2px;
 }
 
 .logo_fogot_pass{
@@ -174,7 +177,7 @@ input[type="submit"]{
 /* nav */
 
 nav{
-	margin-top: 3px;
+	margin-top: 1px;
 }
 
 nav ul:after{
@@ -184,7 +187,7 @@ nav ul:after{
 }
 
 nav ul{
-	background: linear-gradient(to top, #000 70%, #505860);
+	background: linear-gradient(to top, #0f1011 70%, #505860);
 	width: 911px;
 	height: 33px;
 	border: 1px solid #0a1030;
@@ -199,12 +202,13 @@ nav ul li{
 
 nav ul li>a {
 	text-decoration: none;
-	text-transform: uppercase;
-	font-family: Lucida, sans-serif;
-	font-size: 13px;
 	display: block;
+	text-transform: uppercase;
+	font-family: Lucida Sans Unicode, sans-serif;
+	font-size: 13px;
     line-height: 27px;
-    margin-top: 3px;
+    letter-spacing: 0.3px;
+    margin-top: 4px;
     padding-left: 20px;
     padding-right: 14px;
     color: #b1bcc0;
@@ -216,18 +220,19 @@ nav ul li>a:hover{
     color: #fff;
 }
 
-nav ul li:nth-child(2)>a{
-	padding-left: 18px;
-	letter-spacing: 0.3px;
-}
-
-nav ul li:nth-child(5)>a{
-	padding-left: 14px;
-	letter-spacing: 0.3px;
-}
-
 nav ul li:first-child{
-	margin-left: 129px;
+	margin-left: 127px;
+}
+
+nav ul li:nth-child(2)>a,
+nav ul li:nth-child(5)>a{
+	padding-left: 12px;
+	letter-spacing: 0.3px;
+}
+
+nav ul li:nth-child(3)>a,
+nav ul li:nth-child(4)>a{
+	padding-left: 17px;
 }
 
 nav ul li:nth-child(6),
@@ -239,12 +244,13 @@ nav ul li:last-child{
 }
 
 nav ul li:nth-child(6)>p{
-	width: 70px;
+	width: 69px;
     margin-left: 54px;
     padding-left: 33px;
     background-image: url(../img/basket.png);
     background-repeat: no-repeat;
     background-position: 3px 8px;
+    letter-spacing: 0.2px;
 }
 
 nav ul li:last-child>p{
@@ -252,7 +258,7 @@ nav ul li:last-child>p{
 }
 
 nav ul li:last-child p>span{
-	padding-left: 10px;
+	padding-left: 7px;
 }
 
 nav ul li:nth-child(6) p>span,
@@ -278,7 +284,6 @@ section:after{
     border: 1px solid #b8b8b9;
     border-radius: 20px;
     box-shadow: 1px 1px 5px 1px #b9b9b9;
-    
 }
 
 .section1_hed:after{
@@ -337,6 +342,13 @@ section:after{
 	width: 71px;
 }
 
+.section1_l dt span,
+.section1_right dt span,
+.section3 .section3_r dt span{
+	font-size: 10px;
+	color: #77858b;
+}
+
 
 .section1_l dd select,
 .section1_right dd select{
@@ -354,12 +366,13 @@ section:after{
 	width: 50px;
     background-color: #fff;
     border-bottom: 2px solid #99a6b3;
+    padding-bottom: 2px;
     color: #154467;
     font-family: Arial, sans-serif;
     font-style: italic;
     font-size: 14px;
     position: relative;
-    left: 137px;
+    left: 136px;
     top: 2px;
 }
 
@@ -494,7 +507,7 @@ section:after{
 .section2 fieldset ul {
 	margin-top: 7px;
 	margin-left: 13px;
-	font-family: Lucida, sans-serif;
+	font-family: Lucida Sans Unicode, sans-serif;
 	font-size: 12px;
 }
 
@@ -509,12 +522,13 @@ section:after{
 	width: 50px;
     background-color: #fff;
     border-bottom: 2px solid #99a6b3;
+    padding-bottom: 2px;
     color: #154467;
     font-family: Arial, sans-serif;
     font-style: italic;
     font-size: 14px;
     position: relative;
-    left: 122px;
+    left: 121px;
     top: -3px;
 }
 
@@ -612,13 +626,14 @@ ul .section2{
 	width: 50px;
     background-color: #fff;
     border-bottom: 2px solid #99a6b3;
+    padding-bottom: 2px;
     color: #154467;
     font-family: Arial, sans-serif;
     font-style: italic;
     font-size: 14px;
     position: relative;
-    left: 22px;
-    top: 2px;
+    left: 21px;
+    top: 3px;
 }
 
 /* pix pos */
@@ -705,17 +720,18 @@ ul .section2{
    	border-radius: 60px;
     margin-bottom: 13px;
     padding-left: 27px;
-    padding-top: 5px;
+    padding-top: 4px;
     background: url(../img/copy_brand.png) 6px 4px no-repeat,
     			url(../img/fon-for-phon.png) 1px 1px no-repeat;
+    box-shadow: 1px 1px 5px 1px #b9b9b9;
 }
 
 .catalog h3{
-	font-family: Lucida, sans-serif;
-    font-size: 12px;
+	font-family: Lucida Sans Unicode, sans-serif;
+    font-size: 13px;
     color: #114165;
     text-transform: uppercase;
-    letter-spacing: 0.6px;
+    letter-spacing: -0.2px;
 }
 
 .products{
@@ -730,35 +746,47 @@ ul .section2{
 }
 
 .products h3{
+	margin-top: -2px;
 	text-transform: uppercase;
-    font-size: 12px;
+    font-size: 14px;
     color: #114165;
-    font-family: Lucida, sans-serif;
-    letter-spacing: 1.1px;
+    font-family: Lucida Sans Unicode, sans-serif;
 }
 
 .left_bar ul>li{
 	list-style: circle;
     margin-left: 52px;
+    margin-top: 2px;
+    margin-bottom: 11px;
+    height: 15px;
+}
+
+.left_bar ul{
+	margin-bottom: -6px;
+}
+
+
+.left_bar ul li:last-child{
+	margin-top: 1px;
 }
 
 .left_bar ul>li>a{
 	text-decoration: none;
 	margin-left: -4px;
-	letter-spacing: 0.6px;
-    line-height: 25px;
-    font-size: 12px;
-    font-family: Lucida, sans-serif;
+	letter-spacing: -0.3px;
+    font-size: 13px;
+    font-family: Lucida Sans Unicode, sans-serif;
     color: #465961;
 }
 
-.left_bar ul>li:hover{
+.left_bar ul>li>a:hover{
+	text-decoration: underline;
 	font-family: Arial, sans-serif;
 	font-size: 14px;
 	letter-spacing: 0px;
 	font-style: italic;
 	font-weight: 600;
-	text-decoration: underline;
+	color: #0c3256;
 
 }
 
@@ -785,13 +813,15 @@ ul .section2{
     margin-bottom: 15px;
     background: url(../img/copy_brand.png) 8px 4px no-repeat,
     			url(../img/fon-for-phon.png) 3px 1px no-repeat;
+    box-shadow: 1px 1px 5px 1px #b9b9b9;
 }
 
 .brand h3{
+	margin-top: -3px;
 	text-align: right;
     font-size: 14px;
     text-transform: uppercase;
-    font-family: Lucida, sans-serif;
+    font-family: Lucida Sans Unicode, sans-serif;
     color: #114165;
 }
 
@@ -807,11 +837,15 @@ ul .section2{
 
 .tires_right h3{
 	margin-left: 31px;
-    margin-top: 5px;
-    font-family: Lucida, sans-serif;
+	margin-top: 2px;
+    font-family: Lucida Sans Unicode, sans-serif;
     font-size: 14px;
     text-transform: uppercase;
     color: #114165;
+}
+
+.right_bar .disk_right{
+	margin-bottom: 8px;
 }
 
 .right_bar form ul li input[type="checkbox"]{
@@ -823,14 +857,14 @@ ul .section2{
 }
 
 .right_bar form ul li label{
-	font-family: Lucida, sans-serif;
+	font-family: Lucida Sans Unicode, sans-serif;
 	font-size: 12px;
 	color: #465961;
-	letter-spacing: 2.1px;
+	letter-spacing: 0.7px;
 }
 
 .right_bar form ul li{
-	margin-top: 7px;
+	margin-top: 6px;
 	margin-left: 24px;
 }
 
@@ -839,15 +873,16 @@ ul .section2{
 }
 
 .right_bar .right_ul_m{
-	margin-bottom: 20px;
+	margin-bottom: 17px;
 }
 .right_bar input[type="submit"]{
     height: 25px;
     width: 80px;
     margin-left: 25px;
     border-radius: 10px;
+    font-family: Arial, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 0.6px;
+    letter-spacing: 0.7px;
 }
 
 
@@ -875,7 +910,7 @@ ul .section2{
 
 .center_content article figure p{
 	width: 137px;
-	height: 120px;
+	height: 122px;
 	padding-top: 5px;
     background-color: #fff;
     border: 1px solid #bfc6c8;
@@ -883,65 +918,39 @@ ul .section2{
     text-align: center;
 }
 
-.center_content article figure{
-	display: block;
-	width: 148px;
+.center_content article{
+	width: 140px;
 	float: left;
-	margin: 10px 0 9px 20px;
 }
 
+
+.row_1{
+	margin-left: 20px;
+}
+
+.row_1 .row_1_fig_c{
+	margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
 .center_content article figure figcaption h3{
-	font-family: Lucida, sans-serif;
+	font-family: Lucida Sans Unicode, sans-serif;
 	font-size: 14px;
 	color: #206988;
 	margin-left: 35px;
-    margin-top: 3px;
-    letter-spacing: 0.2px;
+    margin-top: 13px;
+    letter-spacing: 0.5px;
     font-weight: 700;
+    line-height: 16px;
 }
 
 .center_content article figure figcaption h4{
 	margin-left: 14px;
-    margin-bottom: 3px;
-	font-family: Lucida, sans-serif;
+	margin-bottom: 2px;
+	font-family: Lucida Sans Unicode, sans-serif;
 	font-size: 13px;
-	letter-spacing: 0.5px;
 	line-height: 11px;
-}
-
-.center_content article figure figcaption .nokian{
-	margin-left: 47px;
-    letter-spacing: 0.4px;
-}
-
-.center_content article figure figcaption .nokian1{
-	margin-left: 26px;
-	letter-spacing: 0.4px;
-}
-
-.center_content article figure .nokian_price{
-	margin-left: 35px;
-    letter-spacing: 0.7px;
-}
-
-.center_content article figure figcaption .hankook{
-	margin-left: 41px;
-}
-
-.center_content article figure figcaption .hankook1{
-	margin-left: 12px;
-    letter-spacing: 0.9px;
-}
-
-.center_content article figure .hankook_price{
-	margin-left: 34px;
-    letter-spacing: 0.9px;
-}
-
-.center_content article figure figcaption .nokian_last,
-.center_content article figure figcaption .goodyear_last,
-.center_content article figure figcaption .hankook_last{
-	margin-top: 6px;
 }
 
 .center_content article figure h5{
@@ -950,14 +959,64 @@ ul .section2{
 	font-weight: bold;
 	font-style: italic;
 	color: #114165;
-	margin-top: 4px;
+	margin-top: 2px;
     margin-left: 39px;
     letter-spacing: 0.4px;
 }
 
 .center_content article figure h5 span{
 	font-size: 12px;
+	letter-spacing: 1px;
 }
+
+.row_2{
+	margin-left: 27px;
+    margin-right: 29px;
+}
+
+.row_2 .row_1_fig_c{
+	margin-top: 21px;
+	margin-bottom: 25px;
+}
+
+.center_content .row_2 figure figcaption h3{
+	margin-left: 47px;
+}
+
+.center_content .row_2 figure figcaption h4{
+	margin-left: 26px;
+	letter-spacing: -0.1px;
+}
+
+.center_content .row_2 figure h5{
+	margin-left: 36px;
+	margin-top: 4px;
+	letter-spacing: 0.7px;
+}
+
+.row_3 .row_1_fig_c{
+	margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.center_content .row_3 figure figcaption h3{
+	margin-left: 40px;
+    margin-top: 18px;
+    line-height: 10px;
+}
+
+.center_content .row_3 figure figcaption h4{
+	margin-left: 12px;
+	margin-bottom: 0;
+    letter-spacing: -0.1px;
+    line-height: 14px;    
+}
+
+.center_content .row_3 figure h5{
+	margin-left: 36px;
+    margin-top: 4px;
+}
+
 
 /* advetising */
 .advertising{
